@@ -16,7 +16,7 @@ DEVELOPER=`xcode-select -print-path`
 DEST="${CURRENTPATH}/lib-ios"
 mkdir -p "${DEST}"
 
-ARCHS="armv7 armv7s arm64 i386 x86_64"
+ARCHS="armv7 armv7s arm64 i386 x86_64 armv7k"
 # ARCHS="armv7"
 LIBS="libopencore-amrnb.a libopencore-amrwb.a"
 
